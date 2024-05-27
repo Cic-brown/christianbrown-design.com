@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     min-height:3000px;
     background-color: white;
     margin: 0 auto;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder.png");
+    background-image: url("Ladder.png");
     background-size:contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -120,7 +120,7 @@ header li{
 /* ------------Hero Image----------------- */
 
 .main-dots {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Main dots.png");
+    background-image: url("Main dots.png");
     margin: -4rem auto auto -2rem;
     width: 100%;
     height:100%;
@@ -131,7 +131,7 @@ header li{
 }
 
 .dots {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Blocks.png");
+    background-image: url("Blocks.png");
     background-size: cover;
     position: absolute;
     left:105%;
@@ -168,7 +168,7 @@ header li{
 .hero-right {
     height:35.75rem;
     width:50%;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Hero pic.jpg");
+    background-image: url("Hero pic.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ span {
 }
 
 .about-pic {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/about-me.jpeg");
+    background-image: url("about-me.jpeg");
     background-color: #737373;
     background-size: cover;
     background-position: center;
@@ -391,7 +391,7 @@ span {
 }
 
 .one {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Elevate.jpeg");
+    background-image: url("Elevate.jpeg");
     background-size: cover;
     top:1rem;
     background-position: left;
@@ -401,22 +401,22 @@ span {
 }
 
 #two {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Maestro.jpeg");
+    background-image: url("Maestro.jpeg");
     background-position: left;
 }
 
 #three {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Web.jpg");
+    background-image: url("Web.jpg");
     background-position: right;
 }
 
 #four {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Drizzle.jpeg");
+    background-image: url("Drizzle.jpeg");
     background-position: center;
 }
 
 #five {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Flipside.jpeg");
+    background-image: url("Flipside.jpeg");
     background-position: left;
 }
 
@@ -444,7 +444,7 @@ span {
 }
 /*--- 
 #bgr2 {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder2.png");
+    background-image: url("Ladder2.png");
     width: 86.55vw;
     height: 130vh;
     top:61rem;
@@ -540,7 +540,7 @@ footer button:hover {transform: scale(1.04);}
     .bgr {
         width:97vw;
         min-height:3000px;
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder.png");
+        background-image: url("Ladder.png");
         background-size:contain;
     }
     /*---hero---*/
@@ -899,7 +899,7 @@ footer button:hover {transform: scale(1.04);}
     .bgr {
         width:97vw;
         min-height:3000px;
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder-media2.png");
+        background-image: url("Ladder-media2.png");
         background-size:contain;
     }
     .nav-item #logo {
