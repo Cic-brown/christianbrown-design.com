@@ -1,0 +1,1089 @@
+* {
+    margin:0;
+}
+
+html {
+    box-sizing: border-box;
+} 
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+}
+
+@font-face {
+    font-family: "Futura";
+    src:
+      local("Futura"),
+      url("/System/Library/Fonts/Supplemental/Futura.ttc") format("opentype") tech(color-COLRv1);
+}
+
+li, h1, h2, h3, h4, h5, p, a, button{
+    font-family: futura;
+    color: #303030;
+    margin: 0px;
+}
+
+
+#bgr {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Laddernew.png");
+    background-position: right;
+    min-width: 100%;
+    height: 250vh;
+    z-index: -3;
+    position: absolute;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#bgr2 {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Laddernew.png");
+    background-position: right;
+    min-width: 100%;
+    height: 250vh;
+    z-index: -5;
+    top:600px;
+    position: absolute;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+
+main {
+    padding:0 15rem 0 15rem;
+}
+
+/* Navigation Bar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 10rem auto;
+    padding:0 10rem;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+.hamburger img {
+    width:18px;
+    display: none;
+}
+
+.nav-list {
+    height: 10rem;
+    display:flex;
+    justify-content:space-between;
+    max-width: 30rem;
+    min-width: 300px;
+    align-items: center;
+    flex:1;
+}
+
+.nav-list2 {
+    display:flex;
+    justify-content: space-between;
+    max-width: 13rem;
+    min-width: 2rem;
+    align-items: center;
+    flex:1;
+}
+
+.nav-item {
+    list-style: none;
+    font-size: 1.14rem;
+    text-wrap: nowrap;
+    max-width:2.6rem;
+    flex: 1;
+}
+
+#symbol {
+    max-width:2.25rem;
+    cursor:pointer;
+    border-radius: 50rem;
+    flex: 1;
+}
+
+#symbol:hover {transform: scale(1.1);}
+#text:hover {transform: scale(1.1);}
+
+header li{
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.nav-item:second-child {
+    margin-right:auto;
+}
+
+.nav-item #logo {
+    width: 5rem;
+    cursor:pointer;
+}
+
+
+/* ------------Hero Image----------------- */
+
+.main-dots {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Main dots.png");
+    margin: -4rem auto auto -2rem;
+    width: 100%;
+    height:100%;
+    border-radius: 115px 6px 94px 6px;
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+.dots {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Blocks.png");
+    background-size: cover;
+    position: absolute;
+    left:105%;
+    margin: 1rem auto auto 0rem;
+}
+
+
+.hero-box {
+    display: flex;
+    position: relative;
+    margin: 0 auto 29rem auto;
+    align-items: center;
+    justify-items: center;
+    max-width: 60rem;
+    min-width: 300px;
+    max-height: 35.75rem;
+    border: solid 4px #303030;
+    border-radius: 94px 6px 94px 6px;
+    background-color: #ffffff;
+    align-items: left;
+}
+
+.hero-left {
+    position: relative;
+    left: 8%;
+    height:15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    flex:1 1 50%; 
+}
+
+.hero-right {
+    height:35.75rem;
+    width:50%;
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Hero pic.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 90px 0;;
+    border-left: solid 4px #303030;
+    flex:1 1 50%;
+}
+
+.buttons {
+    display: inline-flex;
+}
+
+.hero-box #projects:hover {background-color:#90B48D}
+.hero-box #projects:active {position: relative; top:.1rem; left:.1rem; box-shadow: none;}
+.hero-box #resume:hover {background-color:#EDEDED}
+.hero-box #resume:active {position: relative; top:.1rem; left:.1rem; box-shadow: none;}
+
+.hero-box h1 {
+    font-size: 6.81rem;
+    line-height: 5.4rem;
+}
+
+.hero-box h2 {
+    font-size: 1.3rem;
+}
+
+
+#projects {
+    font-size: 1.06rem;
+    padding: 0.4rem 2.1rem;
+    margin: 0 1rem 0 0;
+    border: none;
+    background-color: #A7D0A4;
+    border-radius: 4px;
+    box-shadow: 2px 2px #737373;
+    cursor:pointer;
+}
+
+#resume {
+    font-size: 1.06rem;
+    padding: 0.4rem 2.1rem;
+    margin:0;
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    box-shadow: 2px 2px #737373;
+    cursor:pointer;
+}
+
+span {
+    color: #CF9F56;
+}
+
+/* ----------About Me------------- */
+
+.about-me {
+    position: relative;
+    display: flex;
+    margin:0 auto 5rem auto;
+    max-width: 60rem;
+    min-width: 300px;
+    height:17rem;
+}
+
+.about-pic {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/about-me.jpeg");
+    background-color: #737373;
+    background-size: cover;
+    background-position: center;
+    width: 60rem;
+    height: 100%;
+    border-radius: 55px 5px 55px 5px;
+    border: 3px solid #303030;
+    box-shadow: 2px 2px #737373;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0 0 3rem;
+    font-size: 1.06rem;
+    font-weight: bold;
+    height:12rem;
+    font-size-adjust: inherit;
+}
+#about-buttons1 {
+    font-size: 1.06rem;
+    padding: 0.4rem 2.1rem;
+    margin: 0 1rem 0 0;
+    border: none;
+    background-color: #A7D0A4;
+    border-radius: 4px;
+    box-shadow: 2px 2px #737373;
+    cursor:pointer;
+}
+
+#about-buttons2 {
+    font-size: 1.06rem;
+    padding: 0.4rem 2.1rem;
+    margin: 0 1rem 0 0;
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    box-shadow: 2px 2px #737373;
+    cursor:pointer;
+}
+
+#about-buttons1:hover {background-color:#90B48D}
+#about-buttons1:active {position: relative; top:.1rem; left:.1rem; box-shadow: none;}
+#about-buttons2:hover {background-color:#EDEDED}
+#about-buttons2:active {position: relative; top:.1rem; left:.1rem; box-shadow: none;}
+
+
+/* How I Work */
+
+.how-i-work {
+    display: flex;
+    margin:0 auto 18rem auto;
+    max-width: 60rem;
+    min-width: 300px;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.how-i-work img {
+    max-width: 8rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.grid-container {
+    display:grid;
+    gap: 1.4rem 1.4rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
+}
+
+.values {
+    background-color: #A7D0A4;
+    border-radius: 4px;
+    box-shadow: 2px 2px #737373;
+    border: 3px solid #303030;
+    padding:1.1rem;
+    text-align: center;
+}
+
+.values p {
+    font-size: 0.81rem;
+}
+
+.values h2 {
+    font-size: 2.2rem;
+}
+
+.values h3 {
+    font-size: 1.5rem;
+}
+
+/* Selected Projects */
+
+.selected-projects {
+    position: relative;
+    display: flex;
+    margin:0 auto 10rem auto;
+    max-width: 60rem;
+    min-width: 300px;
+    flex-direction: column;
+}
+
+.selected-projects h2 {
+    font-size: 3rem;
+}
+
+.selected-projects img {
+    max-width: 8rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.project-column {
+    display:flex;
+    flex-direction: column;
+}
+
+.projects:hover {background-color:#FAFAFA}
+.projects:active {position:relative; left:.2rem; top:.2rem; box-shadow:none}
+
+.projects {
+    display: flex;
+    border: 5px solid #353535;
+    border-radius: 9px;
+    margin-bottom: 3rem;
+    min-height: 22rem;
+    box-shadow: 3px 4px #737373;
+    cursor:pointer;
+    background-color: #ffffff;
+}
+
+.pro-text {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    padding: 4rem 3rem 5rem 2rem;
+    min-height:12rem;
+    justify-content: space-between;
+}
+
+.pro-text h4 {
+    font-size: 1.06rem;
+    color: #CF9F56;
+}
+
+.pro-text p {
+    font-size: 0.81rem;
+}
+
+.pro-text h2 {
+    font-size: 2.8rem;
+}
+
+.one {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Elevate.jpeg");
+    background-size: cover;
+    top:1rem;
+    background-position: left;
+    width:58%;
+    border-radius: 0px 3px 3px 0px;
+    resize: both;
+}
+
+#two {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Maestro.jpeg");
+    background-position: left;
+}
+
+#three {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Web.jpg");
+    background-position: right;
+}
+
+#four {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Drizzle.jpeg");
+    background-position: center;
+}
+
+#five {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Pictures/Flipside.jpeg");
+    background-position: left;
+}
+
+/* Chat */
+
+.chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60rem;
+    min-width: 300px;
+    margin: 0 auto 12rem auto;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+#chat:hover {color: #B88C4A;}
+
+.bgr2 {
+    width:100%;
+    position: relative;
+    
+}
+/*--- 
+#bgr2 {
+    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder2.png");
+    width: 86.55vw;
+    height: 130vh;
+    top:61rem;
+    z-index: -7;
+    position: absolute;
+    background-size:cover;
+    background-repeat: no-repeat;
+}--*/
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #A7D0A4;
+    width:100%;
+    height:16rem;
+}
+
+.foot {
+    display:flex;
+    margin: 0 auto 2rem auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width:900px;
+    min-width:300px;
+    
+}
+
+.footer img {
+    max-height: 3rem;
+    max-width: 3rem;
+    cursor:pointer;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.footer button {
+    font-size: 1.06rem;
+    color: #FFFFFF;
+    padding: 0.4rem 2.1rem;
+    border: none;
+    background-color: #353535;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.icons {
+    max-width: 25rem;
+    min-width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 4rem;
+}
+
+.icons img:hover {transform: scale(1.1);}
+footer button:hover {transform: scale(1.04);}
+#email a:hover {transform: scale(1.04);}
+
+#email {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20rem;
+    min-width: 10rem;
+}
+
+#email a {
+    text-decoration: none; 
+    margin-left: 1rem;
+}
+
+#sign-off {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15rem 0 15rem;
+    max-width: 800rem;
+    min-width: 300px;
+}
+
+@media only screen and (max-width: 1270px) {
+    /*---navigation---*/
+    header li {
+        transform: scale(.9);
+    }
+    header {
+        padding:0 5rem 0 5rem;
+    }
+    #symbol:hover {transform: scale(1.1);}
+    #text:hover {transform: scale(1);}
+
+    /*---hero---*/
+    .hero-box {
+        align-items: left;
+    }
+    .hero-right {
+        height:25.75rem;
+        width:25rem;
+        background-size: cover;
+    }
+
+    .hero-left {
+        justify-content: center;
+        height:13rem;
+        padding-right: 3rem;        
+    }
+
+    .hero-box h2 {
+        font-size: 1.2rem;
+        margin-bottom: .8rem;
+    }
+    .hero-box h1 {
+        font-size: 5rem;
+    }
+    #projects, #resume {
+        font-size: .8rem;
+        padding: 0.2rem 1.6rem;
+    }
+    .main-dots {
+        width: 100%;
+        height:100%;
+    }
+    /*---about me---*/
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 11rem;
+    }
+    .about-text p {
+        font-size: .9rem;
+        flex:1;
+    }
+
+    .about-text .push {
+        margin: .7rem 0rem;
+    }
+    #about-buttons1, #about-buttons2 { 
+        font-size: .8rem;
+        padding: 0.2rem 1.6rem;
+        flex:1;
+    }
+
+    /*---how i work---*/
+    .how-i-work h2 {
+        font-size: 1.4rem;
+    }
+    .how-i-work img {
+        max-width: 6rem;
+    }
+
+    /*---how i work---*/
+    .grid-container {
+        gap: .8rem .8rem;
+    }
+    .grid-container h2, h3 {
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .values {
+        padding:.2rem;
+    }
+
+    /*---selected projects---*/
+    .selected-projects {
+        margin:0 auto 3rem auto;
+    }
+
+    .selected-projects h2 {
+        font-size: 1.6rem;
+        margin-bottom: .4rem;
+    }
+    .selected-projects img {
+        max-width: 7rem;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        max-height: 900px;
+
+    }
+    .one {
+        width:100%;
+        max-height: 50rem;
+        min-height: 30rem;
+        border-top: ;  
+    }
+    .pro-text {
+        width: 93%;
+        padding: 2rem 1.5rem 2.5rem 2rem;
+        min-height:12rem;
+        justify-content: space-between;
+    }
+    /*---chat---*/
+    .chat {
+        font-size: 1.5rem;
+        margin: 0 auto 6rem auto;
+    }
+    /*---footer---*/
+    .footer img {
+        max-height: 2rem;
+        max-width: 2rem;
+    } 
+    .icons {
+        max-width: 5rem;
+    }
+
+    .footer button {
+        font-size: 1rem;
+        color: #FFFFFF;
+        padding: 0.3rem 1.5rem;
+        border: none;
+        background-color: #353535;
+        border-radius: 4px;
+        cursor:pointer;
+    }
+}
+@media only screen and (max-width: 1007px) {
+    main {
+        padding:0 20vw;
+    }
+    /*---navigation---*/
+    header li {
+        margin: 0;
+        transform: scale(.7);
+    }
+    .nav-list {
+        justify-content: space-between;
+        padding-inline-start: 0px;
+        max-width: 40%;
+        min-width: 300px;
+    }
+    .nav-list2 {
+        display: none;
+    }
+    header {
+        min-width: 100px;
+        padding: 0rem 5rem;
+        margin-bottom: 2rem;
+    }
+ 
+    #symbol:hover {transform: scale(1.1);}
+    #text:hover {transform: scale(.8);}
+
+    .nav-item #logo {
+        width: 3.5rem;
+        margin:0rem;
+    }
+
+    /*---hero---*/
+    .hero-box {
+        height: 18rem;
+        align-items: left;
+        border: solid 2px #303030;
+        margin-bottom: 15rem;
+    }
+    
+    .hero-right {
+        height:25.75rem;
+        width:25rem;
+        height:18rem;
+        background-size: cover;
+        border-radius: 0 4px 91px 0;;
+        border-left: solid 2px #303030;
+    }
+
+    .hero-left {
+        justify-content: center;
+        padding-right: 1rem;        
+    }
+
+    .hero-box h2 {
+        font-size: .7rem;
+        padding-right: 2rem;
+        margin-bottom: .5rem;
+    }
+    .hero-box h1 {
+        font-size: 2.7rem;
+        margin-bottom: -.8rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50px;
+    
+    }
+    #projects, #resume {
+        font-size: .6rem;
+        padding: 0.2rem 1.6rem;
+    }
+    .main-dots {
+        width: 100%;
+        height:100%;
+        margin: -1.5rem auto auto -1rem;
+        border-radius: 105px 6px 85px 6px;
+    }
+
+   
+    /*---about me---*/
+    .about-me {
+        align-items: center;
+    }
+    .about-pic {
+        width: 90rem;
+        border: 2px solid #303030;
+    }
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: center;
+        height: 14rem;
+        padding: 0 1rem 0 1rem;
+    }
+    .about-text p {
+        font-size: .7rem;
+        flex:1;
+    }
+
+    .about-text .push {
+        margin: .7rem 0rem;
+    }
+
+    #about-buttons2 {
+        display:none;
+    }
+    #about-buttons1 { 
+        font-size: .7rem;
+        padding: 0.2rem 1.6rem;
+        flex:1;
+        width:120px;
+        margin-bottom: .5rem;
+    }
+
+    /*---how i work---*/
+    .how-i-work h2 {
+        font-size: 1.4rem;
+    }
+    .how-i-work img {
+        max-width: 6rem;
+    }
+
+    /*---how i work---*/ 
+    .how-i-work {
+        margin-bottom:10rem;
+    }
+    .grid-container {
+        grid-template-columns:1fr 1fr;  
+    }
+    .grid-container h2, h3 {
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .values {
+        padding:.8rem 1rem;
+        box-shadow: none;
+        border: 2px solid #303030;
+        border-radius: 8px;
+    }
+
+    /*---selected projects---*/
+    .selected-projects {
+        margin:0 auto 3rem auto;
+    }
+
+    .selected-projects h2 {
+        font-size: 1.6rem;
+        margin-bottom: .4rem;
+    }
+    .selected-projects img {
+        max-width: 6rem;
+    }
+
+    .pro-text {
+        width: 80%;
+        padding: 1rem;
+        min-height:12rem;
+        justify-content: space-between;
+    }
+    .projects {
+        height: 32rem;
+        border: 2px solid #353535;
+    }
+    .one {
+        min-height:18rem;
+        width:100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0px 0px 6px 6px;
+    }
+    /*---chat---*/
+    .chat {
+        font-size: 1rem;
+        line-height: 1.7rem;
+        margin: 0 auto 6rem auto;
+    }
+    /*---footer---*/
+    .footer {
+        padding: .5rem 0;
+    }
+    .footer img {
+        max-height: 2rem;
+        max-width: 2rem;
+    }
+    .icons {
+        max-width: 5rem;
+    }
+    .foot {
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+        font-size: .8rem;
+    }
+
+    .footer button {
+        font-size: .7rem;
+        padding: 0.3rem 1.5rem;
+        margin-bottom: .8rem;
+    }
+    #sign-off {
+        height: 1.7rem;
+        font-size: .6rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    main {
+        padding:0 7vw 0 7vw;
+    }
+    /*---navigation---*/
+    header li {
+        transform: scale(.9);
+    }
+
+    header {
+        min-width: 300px;
+        padding: 0rem 1.5rem;
+        margin-bottom: 2rem;
+    }
+    #symbol:hover {transform: scale(1.1);}
+    #text:hover {transform: scale(1);}
+
+    .nav-item #logo {
+        width: 3.5rem;
+    }
+
+    .hamburger img {
+        display: block;
+    }
+    #text {
+        display: none;
+    }
+
+    #symbol {
+        display:none;
+    }
+
+    /*---hero---*/
+    .hero-box {
+        height: 18rem;
+        align-items: left;
+        border: solid 2px #303030;
+        margin-bottom: 15rem;
+    }
+    
+    .hero-right {
+        height:25.75rem;
+        width:25rem;
+        height:18rem;
+        background-size: cover;
+        border-radius: 0 4px 91px 0;;
+        border-left: solid 2px #303030;
+    }
+
+    .hero-left {
+        justify-content: center;
+        padding-right: 1rem;        
+    }
+
+    .hero-box h2 {
+        font-size: .7rem;
+        padding-right: 2rem;
+        margin-bottom: .5rem;
+    }
+    .hero-box h1 {
+        font-size: 2.7rem;
+        margin-bottom: -.8rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 50px;
+    }
+    #projects, #resume {
+        font-size: .6rem;
+        padding: 0.2rem 1.6rem;
+        
+    }
+    .main-dots {
+        width: 100%;
+        height:100%;
+        margin: -1.5rem auto auto -1rem;
+        border-radius: 105px 6px 85px 6px;
+    }
+
+   
+    /*---about me---*/
+    .about-pic {
+        width: 90rem;
+        border: 2px solid #303030;
+    }
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 11rem;
+        padding: 0 1rem 0 1rem;
+    }
+    .about-text p {
+        font-size: .7rem;
+        flex:1;
+    }
+
+    .about-text .push {
+        margin: .7rem 0rem;
+    }
+
+    #about-buttons2 {
+        display: none;
+    }
+    #about-buttons1 { 
+        font-size: .7rem;
+        padding: 0.2rem 1.6rem;
+        flex:1;
+        width:120px;
+    }
+
+    /*---how i work---*/
+    .how-i-work h2 {
+        font-size: 1.4rem;
+    }
+    .how-i-work img {
+        max-width: 6rem;
+    }
+
+    /*---how i work---*/ 
+    .how-i-work {
+        margin-bottom:10rem;
+    }
+    .grid-container {
+        grid-template-columns: 1fr;  
+    }
+    .grid-container h2, h3 {
+        font-size: 1.3rem;
+        flex-wrap: wrap;
+    }
+    .values {
+        padding:.8rem 1rem;
+        box-shadow: none;
+        border: 2px solid #303030;
+        border-radius: 8px;
+    }
+
+    /*---selected projects---*/
+    .selected-projects {
+        margin:0 auto 3rem auto;
+    }
+
+    .selected-projects h2 {
+        font-size: 1.6rem;
+        margin-bottom: .4rem;
+    }
+    .selected-projects img {
+        max-width: 6rem;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        height: 424px;
+        border: 2px solid #353535;
+        margin-bottom: 1rem;
+
+    }
+    .one {
+        width:100%;
+        max-height: 200px;
+        min-height: 200px;
+        border-radius: 0 0 6px 6px;
+    }
+    .pro-text {
+        width: 80%;
+        padding: 1rem;
+        min-height:12rem;
+        justify-content: space-between;
+    }
+    /*---chat---*/
+    .chat {
+        font-size: 1rem;
+        line-height: 1.7rem;
+        margin: 0 auto 6rem auto;
+    }
+    /*---footer---*/
+    .footer {
+        padding: .5rem 0
+    }
+ 
+    .footer img {
+        max-height: 2rem;
+        max-width: 2rem;
+    }
+    .icons {
+        max-width: 5rem;
+    }
+
+    .footer button {
+        font-size: .7rem;
+        padding: 0.3rem 1.5rem;
+        margin-bottom: .8rem;
+    }
+    #sign-off {
+        height: 1.7rem;
+        font-size: .6rem;
+    }
+}
