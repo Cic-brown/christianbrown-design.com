@@ -120,7 +120,7 @@ header li{
 /* ------------Hero Image----------------- */
 
 .main-dots {
-    background-image: url("Pictures/Main dots.png");
+    background-image: url("Files/Main dots.png");
     margin: -4rem auto auto -2rem;
     width: 100%;
     height:100%;
@@ -131,7 +131,7 @@ header li{
 }
 
 .dots {
-    background-image: url("Pictures/Blocks.png");
+    background-image: url("Files/Blocks.png");
     background-size: cover;
     position: absolute;
     left:105%;
