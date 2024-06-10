@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     min-height:3000px;
     background-color: white;
     margin: 0 auto;
-    background-image: url("Files/Ladder.png");
+    background-image: href="Files/Ladder.png";
     background-size:contain;
     background-repeat: no-repeat;
     position: absolute;
