@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     min-height:3000px;
     background-color: white;
     margin: 0 auto;
-    background-image: href="Files/Ladder.png";
+    background-image: src="Files/Ladder.png";
     background-size:contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -120,7 +120,7 @@ header li{
 /* ------------Hero Image----------------- */
 
 .main-dots {
-    background-image: url("Files/Main dots.png");
+    background-image: src="Files/Main dots.png";
     margin: -4rem auto auto -2rem;
     width: 100%;
     height:100%;
@@ -131,7 +131,7 @@ header li{
 }
 
 .dots {
-    background-image: url("Files/Blocks.png");
+    background-image: src="Files/Blocks.png";
     background-size: cover;
     position: absolute;
     left:105%;
@@ -168,7 +168,7 @@ header li{
 .hero-right {
     height:35.75rem;
     width:50%;
-    background-image: url("Pictures/Hero pic.jpg");
+    background-image: src="Pictures/Hero pic.jpg";
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ span {
 }
 
 .about-pic {
-    background-image: url("Pictures/about-me.jpeg");
+    background-image: src="Pictures/about-me.jpeg";
     background-color: #737373;
     background-size: cover;
     background-position: center;
@@ -391,7 +391,7 @@ span {
 }
 
 .one {
-    background-image: url("Pictures/Elevate.jpeg");
+    background-image: src="Pictures/Elevate.jpeg";
     background-size: cover;
     top:1rem;
     background-position: left;
@@ -401,22 +401,22 @@ span {
 }
 
 #two {
-    background-image: url("Pictures/Maestro.jpeg");
+    background-image: src="Pictures/Maestro.jpeg";
     background-position: left;
 }
 
 #three {
-    background-image: url("Pictures/Web.jpg");
+    background-image: src="Pictures/Web.jpg";
     background-position: right;
 }
 
 #four {
-    background-image: url("Pictures/Drizzle.jpeg");
+    background-image: src="Pictures/Drizzle.jpeg";
     background-position: center;
 }
 
 #five {
-    background-image: url("Pictures/Flipside.jpeg");
+    background-image: src="Pictures/Flipside.jpeg";
     background-position: left;
 }
 
@@ -444,7 +444,7 @@ span {
 }
 /*--- 
 #bgr2 {
-    background-image: url("Files/Ladder2.png");
+    background-image: src="Files/Ladder2.png";
     width: 86.55vw;
     height: 130vh;
     top:61rem;
@@ -540,7 +540,7 @@ footer button:hover {transform: scale(1.04);}
     .bgr {
         width:97vw;
         min-height:3000px;
-        background-image: url("Files/Ladder.png");
+        background-image: src="Files/Ladder.png";
         background-size:contain;
     }
     /*---hero---*/
@@ -899,7 +899,7 @@ footer button:hover {transform: scale(1.04);}
     .bgr {
         width:97vw;
         min-height:3000px;
-        background-image: url("Files/Ladder-media2.png");
+        background-image: src="Files/Ladder-media2.png";
         background-size:contain;
     }
     .nav-item #logo {
