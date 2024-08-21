@@ -234,7 +234,7 @@ span {
 }
 
 .about-pic {
-    background-image: href=("Pictures/about-me.jpeg");
+    background-image: src=("../Pictures/about-me.jpeg");
     background-color: #737373;
     background-size: cover;
     background-position: center;
