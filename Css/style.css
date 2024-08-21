@@ -168,7 +168,7 @@ header li{
 .hero-right {
     height:35.75rem;
     width:50%;
-    background-image: url("../../Pictures/Hero pic.jpg");
+    background-image: src("/Pictures/Hero pic.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
