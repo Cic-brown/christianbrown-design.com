@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     min-height:3000px;
     background-color: white;
     margin: 0 auto;
-    background-image: url=("Files/Ladder.png");
+    background-image: src=("Files/Ladder.png");
     background-size:contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -120,7 +120,7 @@ header li{
 /* ------------Hero Image----------------- */
 
 .main-dots {
-    background-image: url("Files/Main dots.png");
+    background-image: src=("Files/Main dots.png");
     margin: -4rem auto auto -2rem;
     width: 100%;
     height:100%;
@@ -168,7 +168,7 @@ header li{
 .hero-right {
     height:35.75rem;
     width:50%;
-    background-image: src("/Pictures/Hero pic.jpg");
+    background-image: src=("/Pictures/Hero pic.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
