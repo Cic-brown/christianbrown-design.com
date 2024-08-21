@@ -157,7 +157,7 @@ main {
 #twenty-one {background-image: url("Elevate/21.jpg");}
 #twenty-two {background-image: url("Elevate/22.jpg");}
 #twenty-three {background-image: url("Elevate/23.jpg");}
-#twenty-four {background-image: url("Elevate/24.jpg");}
+#twenty-four {background-image: url("../Elevate/24.jpg");}
 
 .arrows {
     display: flex;
