@@ -401,7 +401,7 @@ span {
 }
 
 #two {
-    background-image: src="Pictures/Maestro.jpeg";
+    background-image: url("christianbrown-design.com/Pictures/Maestro.jpeg");
     background-position: left;
 }
 
