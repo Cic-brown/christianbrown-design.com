@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+    background-image: url("Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,39 +128,39 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/1.jpg");
+    background-image: url("Drizzle/1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin:0;    
 }
 
-#two {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/2.jpg");}
-#three {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/3.jpg");}
-#four {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/4.jpg");}
-#five {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/5.jpg");}
-#six {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/6.jpg");}
-#seven {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/7.jpg");}
-#eight {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/8.jpg");}
-#nine {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/9.jpg");}
-#ten {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/10.jpg");}
-#eleven {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/11.jpg");}
-#twelve {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/12.jpg");}
-#thirteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/13.jpg");}
-#fourteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/14.jpg");}
-#fifteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/15.jpg");}
-#sixteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/16.jpg");}
-#seventeen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/17.jpg");}
-#eighteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/18.jpg");}
-#nineteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/19.jpg");}
-#twenty {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/20.jpg");}
-#twentyone {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/21.jpg");}
-#twentytwo {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/22.jpg");}
-#twentythree {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/23.jpg");}
-#twentyfour {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/24.jpg");}
-#twentyfive {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/25.jpg");}
-#twentysix {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/26.jpg");}
-#twentyseven {background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/27.2.jpg");
+#two {background-image: url("Drizzle/2.jpg");}
+#three {background-image: url("Drizzle/3.jpg");}
+#four {background-image: url("Drizzle/4.jpg");}
+#five {background-image: url("Drizzle/5.jpg");}
+#six {background-image: url("Drizzle/6.jpg");}
+#seven {background-image: url("Drizzle/7.jpg");}
+#eight {background-image: url("Drizzle/8.jpg");}
+#nine {background-image: url("Drizzle/9.jpg");}
+#ten {background-image: url("Drizzle/10.jpg");}
+#eleven {background-image: url("Drizzle/11.jpg");}
+#twelve {background-image: url("Drizzle/12.jpg");}
+#thirteen {background-image: url("Drizzle/13.jpg");}
+#fourteen {background-image: url("Drizzle/14.jpg");}
+#fifteen {background-image: url("Drizzle/15.jpg");}
+#sixteen {background-image: url("Drizzle/16.jpg");}
+#seventeen {background-image: url("Drizzle/17.jpg");}
+#eighteen {background-image: url("Drizzle/18.jpg");}
+#nineteen {background-image: url("Drizzle/19.jpg");}
+#twenty {background-image: url("Drizzle/20.jpg");}
+#twentyone {background-image: url("Drizzle/21.jpg");}
+#twentytwo {background-image: url("Drizzle/22.jpg");}
+#twentythree {background-image: url("Drizzle/23.jpg");}
+#twentyfour {background-image: url("Drizzle/24.jpg");}
+#twentyfive {background-image: url("Drizzle/25.jpg");}
+#twentysix {background-image: url("Drizzle/26.jpg");}
+#twentyseven {background-image: url("Drizzle/27.2.jpg");
 }
 
 .arrows {
@@ -182,7 +182,7 @@ main {
 }
 
 .right {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Arrowright.jpg");
+    background-image: url("Files/Arrowright.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -191,7 +191,7 @@ main {
     margin-bottom: .3rem;
 }
 .left {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Arrowleft.jpg");
+    background-image: url("Files/Arrowleft.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -294,7 +294,7 @@ footer button:hover {transform: scale(1.04);}
         max-width: 100%;
         min-width: 300px;
         min-height:440px;
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/1.jpg");
+        background-image: url("Drizzle/1.jpg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -341,7 +341,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -449,7 +449,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
