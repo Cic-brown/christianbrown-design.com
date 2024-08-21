@@ -131,7 +131,7 @@ header li{
 }
 
 .dots {
-    background-image: src="Files/Blocks.png";
+    background-image: src=("Files/Blocks.png");
     background-size: cover;
     position: absolute;
     left:105%;
@@ -168,7 +168,7 @@ header li{
 .hero-right {
     height:35.75rem;
     width:50%;
-    background-image: src=("/Pictures/Hero pic.jpg");
+    background-image: src("Pictures/Hero pic.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
