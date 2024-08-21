@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+    background-image: url("Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,36 +128,36 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/1.jpg");
+    background-image: url("Elevate/1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin:0;    
 }
 
-#two {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/2.jpg");}
-#three {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/3.jpg");}
-#four {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/4.jpg");}
-#five {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/5.jpg");}
-#six {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/6.jpg");}
-#seven {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/7.jpg");}
-#eight {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/8.jpg");}
-#nine {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/9.jpg");}
-#ten {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/10.jpg");}
-#eleven {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/11.jpg");}
-#twelve {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/12.jpg");}
-#thirteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/13.jpg");}
-#fourteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/14.jpg");}
-#fifteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/15.jpg");}
-#sixteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/16.jpg");}
-#seventeen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/17.jpg");}
-#eighteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/18.jpg");}
-#nineteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/19.jpg");}
-#twenty {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/20.jpg");}
-#twenty-one {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/21.jpg");}
-#twenty-two {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/22.jpg");}
-#twenty-three {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/23.jpg");}
-#twenty-four {background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/24.jpg");}
+#two {background-image: url("Elevate/2.jpg");}
+#three {background-image: url("Elevate/3.jpg");}
+#four {background-image: url("Elevate/4.jpg");}
+#five {background-image: url("Elevate/5.jpg");}
+#six {background-image: url("Elevate/6.jpg");}
+#seven {background-image: url("Elevate/7.jpg");}
+#eight {background-image: url("Elevate/8.jpg");}
+#nine {background-image: url("Elevate/9.jpg");}
+#ten {background-image: url("Elevate/10.jpg");}
+#eleven {background-image: url("Elevate/11.jpg");}
+#twelve {background-image: url("Elevate/12.jpg");}
+#thirteen {background-image: url("Elevate/13.jpg");}
+#fourteen {background-image: url("Elevate/14.jpg");}
+#fifteen {background-image: url("Elevate/15.jpg");}
+#sixteen {background-image: url("Elevate/16.jpg");}
+#seventeen {background-image: url("Elevate/17.jpg");}
+#eighteen {background-image: url("Elevate/18.jpg");}
+#nineteen {background-image: url("Elevate/19.jpg");}
+#twenty {background-image: url("Elevate/20.jpg");}
+#twenty-one {background-image: url("Elevate/21.jpg");}
+#twenty-two {background-image: url("Elevate/22.jpg");}
+#twenty-three {background-image: url("Elevate/23.jpg");}
+#twenty-four {background-image: url("Elevate/24.jpg");}
 
 .arrows {
     display: flex;
@@ -175,7 +175,7 @@ main {
     align-items: center;
 }
 .right {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Arrowright.jpg");
+    background-image: url("Files/Arrowright.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -278,7 +278,7 @@ footer button:hover {transform: scale(1.04);}
         max-width: 100%;
         min-width: 300px;
         min-height:440px;
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Elevate/1.jpg");
+        background-image: url("Elevate/1.jpg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -329,7 +329,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -440,7 +440,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
