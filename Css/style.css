@@ -234,7 +234,7 @@ span {
 }
 
 .about-pic {
-    background-image: src="Pictures/about-me.jpeg";
+    background-image: src=("Pictures/about-me.jpeg");
     background-color: #737373;
     background-size: cover;
     background-position: center;
@@ -416,7 +416,7 @@ span {
 }
 
 #five {
-    background-image: src="Pictures/Flipside.jpeg";
+    background-image: src="/Pictures/Flipside.jpeg";
     background-position: left;
 }
 
