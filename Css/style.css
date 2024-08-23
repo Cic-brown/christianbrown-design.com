@@ -416,7 +416,7 @@ span {
 }
 
 #five {
-    background-image: url(="../Pictures/Flipside.jpeg");
+    background-image: url("../Pictures/Flipside.jpeg");
     background-position: left;
 }
 
