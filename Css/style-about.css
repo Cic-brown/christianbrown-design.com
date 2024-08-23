@@ -35,7 +35,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:100%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("Files/Ladder flip.png");
+    background-image: url("../Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -139,7 +139,7 @@ main {
 
 }
 .about-dots {
-    background-image: url("Files/Frame 2.png");
+    background-image: url("../Files/Frame 2.png");
     display: flex;
     align-items: center;
 }
@@ -150,12 +150,12 @@ main {
 }
 
 .about-dots {
-    background-image: url("Files/Frame 2.png");
+    background-image: url("../Files/Frame 2.png");
     
 }
 
 .about-face {
-    background-image: url("Pictures/631a42b473b2eaab97342bb4_259EB63F-C424-4394-8B64-BA02832F4F1B.jpeg");
+    background-image: url("../Pictures/631a42b473b2eaab97342bb4_259EB63F-C424-4394-8B64-BA02832F4F1B.jpeg");
     background-size: 250%;
     background-position:-8rem;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ main {
 }
 
 .fun-image {
-    background-image: url("Pictures/631e245c9e7350868b21f3d1_IMAG3886.jpg");
+    background-image: url("../Pictures/631e245c9e7350868b21f3d1_IMAG3886.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,11 +219,11 @@ main {
 }
 
 #two {
-    background-image: url("Pictures/631e245cbc22fc533b31cb52_DSC_0312.jpeg");
+    background-image: url("../Pictures/631e245cbc22fc533b31cb52_DSC_0312.jpeg");
 }
 
 #three{
-    background-image: url("Pictures/631e245c92adedb8613d910c_DSC_9096.jpg");
+    background-image: url("../Pictures/631e245c92adedb8613d910c_DSC_9096.jpg");
 }
 
 .values p {
@@ -249,7 +249,7 @@ main {
 }
 /*--- 
 #bgr2 {
-    background-image: url("Ladder2.png");
+    background-image: url("../Ladder2.png");
     width: 86.55vw;
     height: 130vh;
     top:61rem;
@@ -347,7 +347,7 @@ footer button:hover {transform: scale(1.04);}
     }
     /*---about me---*/
     .about-face {
-        background-image: url("Pictures/631a42b473b2eaab97342bb4_259EB63F-C424-4394-8B64-BA02832F4F1B.jpeg");
+        background-image: url("../Pictures/631a42b473b2eaab97342bb4_259EB63F-C424-4394-8B64-BA02832F4F1B.jpeg");
         background-size: cover;
         background-position:-6rem;
         background-repeat: no-repeat;
@@ -394,7 +394,7 @@ footer button:hover {transform: scale(1.04);}
         flex-wrap: wrap;
     }
     .fun-image {
-        background-image: url("Pictures/631e245c9e7350868b21f3d1_IMAG3886.jpg");
+        background-image: url("../Pictures/631e245c9e7350868b21f3d1_IMAG3886.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -434,7 +434,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -568,7 +568,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
