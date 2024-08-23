@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("Files/Ladder flip.png");
+    background-image: url("../Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,7 +128,7 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("Flipside/1.png");
+    background-image: url("../Flipside/1.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ footer button:hover {transform: scale(1.04);}
         max-width: 100%;
         min-width: 300px;
         min-height:440px;
-        background-image: url("../Drizzle/1.jpg");
+        background-image: url("../Flipside/1.jpg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -438,7 +438,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("../iles/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
