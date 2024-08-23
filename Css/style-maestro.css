@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("Files/Ladder flip.png");
+    background-image: url("../Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,36 +128,36 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("Maestro/1.jpg");
+    background-image: url("../Maestro/1.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin:0;    
 }
 
-#two {background-image: url("Maestro/2.jpg");}
-#three {background-image: url("Maestro/3.jpg");}
-#four {background-image: url("Maestro/4.jpg");}
-#five {background-image: url("Maestro/5.jpg");}
-#six {background-image: url("Maestro/6.jpg");}
-#seven {background-image: url("Maestro/7.jpg");}
-#eight {background-image: url("Maestro/8.jpg");}
-#nine {background-image: url("Maestro/9.jpg");}
-#ten {background-image: url("Maestro/10.jpg");}
-#eleven {background-image: url("Maestro/11.jpg");}
-#twelve {background-image: url("Maestro/12.jpg");}
-#thirteen {background-image: url("Maestro/13.jpg");}
-#fourteen {background-image: url("Maestro/14.jpg");}
-#fifteen {background-image: url("Maestro/15.jpg");}
-#sixteen {background-image: url("Maestro/16.jpg");}
-#seventeen {background-image: url("Maestro/17.jpg");}
-#eighteen {background-image: url("Maestro/18.jpg");}
-#nineteen {background-image: url("Maestro/19.jpg");}
-#twenty {background-image: url("Maestro/20.jpg");}
-#twentyone {background-image: url("Maestro/21.jpg");}
-#twentytwo {background-image: url("Maestro/22.jpg");}
-#twentythree {background-image: url("Maestro/23.jpg");}
-#twentyfour {background-image: url("Maestro/24.jpg");}
+#two {background-image: url("../Maestro/2.jpg");}
+#three {background-image: url("../Maestro/3.jpg");}
+#four {background-image: url("../Maestro/4.jpg");}
+#five {background-image: url("../Maestro/5.jpg");}
+#six {background-image: url("../Maestro/6.jpg");}
+#seven {background-image: url("../Maestro/7.jpg");}
+#eight {background-image: url("../Maestro/8.jpg");}
+#nine {background-image: url("../Maestro/9.jpg");}
+#ten {background-image: url("../Maestro/10.jpg");}
+#eleven {background-image: url("../Maestro/11.jpg");}
+#twelve {background-image: url("../Maestro/12.jpg");}
+#thirteen {background-image: url("../Maestro/13.jpg");}
+#fourteen {background-image: url("../Maestro/14.jpg");}
+#fifteen {background-image: url("../Maestro/15.jpg");}
+#sixteen {background-image: url("../Maestro/16.jpg");}
+#seventeen {background-image: url("../Maestro/17.jpg");}
+#eighteen {background-image: url("../Maestro/18.jpg");}
+#nineteen {background-image: url("../Maestro/19.jpg");}
+#twenty {background-image: url("../Maestro/20.jpg");}
+#twentyone {background-image: url("../Maestro/21.jpg");}
+#twentytwo {background-image: url("../aestro/22.jpg");}
+#twentythree {background-image: url("../Maestro/23.jpg");}
+#twentyfour {background-image: url("../Maestro/24.jpg");}
 
 .arrows {
     display: flex;
@@ -178,7 +178,7 @@ main {
 }
 
 .right {
-    background-image: url("Files/Arrowright.jpg");
+    background-image: url("../Files/Arrowright.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -187,7 +187,7 @@ main {
     margin-bottom: .3rem;
 }
 .left {
-    background-image: url("Files/Arrowleft.jpg");
+    background-image: url("../Files/Arrowleft.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -336,7 +336,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -444,7 +444,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
