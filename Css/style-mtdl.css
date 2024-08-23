@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("Files/Ladder flip.png");
+    background-image: url("../Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,28 +128,28 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("MDTL/1-Welcome.jpg");
+    background-image: url("../MDTL/1-Welcome.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin:0;    
 }
 
-#two {background-image: url("MDTL/2-Intro.jpg");}
-#three {background-image: url("MDTL/3-Goals.jpg");}
-#four {background-image: url("MDTL/4-Research.jpg");}
-#five {background-image: url("MDTL/5-Breakdown.jpg");}
-#six {background-image: url("MDTL/6-Wireframes.jpg");}
-#seven {background-image: url("MDTL/7-Prototyping.jpg");}
-#eight {background-image: url("MDTL/8-Testing.jpg");}
-#nine {background-image: url("MDTL/9-Testing.jpg");}
-#ten {background-image: url("MDTL/10-Build out.jpg");}
-#eleven {background-image: url("MDTL/11-Web1.jpg");}
-#twelve {background-image: url("MDTL/12-Web2.jpg");}
-#thirteen {background-image: url("MDTL/13-Web3.jpg");}
-#fourteen {background-image: url("MDTL/14-Final Web.jpg");}
-#fifteen {background-image: url("MDTL/15-Final-Mobile.jpg");}
-#sixteen {background-image: url("MDTL/16-Reflection.jpg");}
+#two {background-image: url("../MDTL/2-Intro.jpg");}
+#three {background-image: url("../MDTL/3-Goals.jpg");}
+#four {background-image: url("../MDTL/4-Research.jpg");}
+#five {background-image: url("../MDTL/5-Breakdown.jpg");}
+#six {background-image: url("../MDTL/6-Wireframes.jpg");}
+#seven {background-image: url("../MDTL/7-Prototyping.jpg");}
+#eight {background-image: url("../MDTL/8-Testing.jpg");}
+#nine {background-image: url("../MDTL/9-Testing.jpg");}
+#ten {background-image: url("../MDTL/10-Build out.jpg");}
+#eleven {background-image: url("../MDTL/11-Web1.jpg");}
+#twelve {background-image: url("../MDTL/12-Web2.jpg");}
+#thirteen {background-image: url("../MDTL/13-Web3.jpg");}
+#fourteen {background-image: url("../MDTL/14-Final Web.jpg");}
+#fifteen {background-image: url("../MDTL/15-Final-Mobile.jpg");}
+#sixteen {background-image: url("../MDTL/16-Reflection.jpg");}
 
 
 .arrows {
@@ -171,7 +171,7 @@ main {
 }
 
 .right {
-    background-image: url("Files/Arrowright.jpg");
+    background-image: url("../Files/Arrowright.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -180,7 +180,7 @@ main {
     margin-bottom: .3rem;
 }
 .left {
-    background-image: url("Files/Arrowleft.jpg");
+    background-image: url("../Files/Arrowleft.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -329,7 +329,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -437,7 +437,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
