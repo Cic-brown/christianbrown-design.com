@@ -34,7 +34,7 @@ li, h1, h2, h3, h4, h5, p, a, button{
     height:50%;
     background-color: rgb(116, 93, 93);
     margin: 0 auto;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+    background-image: url("../Files/Ladder flip.png");
     background-size:cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -128,29 +128,29 @@ main {
     max-width: 100%;
     min-width: 300px;
     min-height:600px;
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/1.png");
+    background-image: url("../Flipside/1.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     margin:0;    
 }
 
-#two {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/2.png");}
-#three {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/3.png");}
-#four {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/4.png");}
-#five {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/5.png");}
-#six {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/6.png");}
-#seven {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/7.png");}
-#eight {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/8.png");}
-#nine {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/9.png");}
-#ten {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/10.png");}
-#eleven {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/11.png");}
-#twelve {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/12.png");}
-#thirteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/13.png");}
-#fourteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/14.png");}
-#fifteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/15.png");}
-#sixteen {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/16.png");}
-#seventeen {background-image: url("/Users/christianbrown/Desktop/2024 website/Flipside/17.png");}
+#two {background-image: url("../Flipside/2.png");}
+#three {background-image: url("../Flipside/3.png");}
+#four {background-image: url("../Flipside/4.png");}
+#five {background-image: url("../Flipside/5.png");}
+#six {background-image: url("../Flipside/6.png");}
+#seven {background-image: url("../Flipside/7.png");}
+#eight {background-image: url("../Flipside/8.png");}
+#nine {background-image: url("../Flipside/9.png");}
+#ten {background-image: url("../Flipside/10.png");}
+#eleven {background-image: url("../Flipside/11.png");}
+#twelve {background-image: url("../Flipside/12.png");}
+#thirteen {background-image: url("../Flipside/13.png");}
+#fourteen {background-image: url("../Flipside/14.png");}
+#fifteen {background-image: url("../Flipside/15.png");}
+#sixteen {background-image: url("../Flipside/16.png");}
+#seventeen {background-image: url("../Flipside/17.png");}
 
 .arrows {
     display: flex;
@@ -171,7 +171,7 @@ main {
 }
 
 .right {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Arrowright.jpg");
+    background-image: url("../Files/Arrowright.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -180,7 +180,7 @@ main {
     margin-bottom: .3rem;
 }
 .left {
-    background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Arrowleft.jpg");
+    background-image: url("../Files/Arrowleft.jpg");
     background-position: center;
     background-size: cover;
     width:4rem;
@@ -283,7 +283,7 @@ footer button:hover {transform: scale(1.04);}
         max-width: 100%;
         min-width: 300px;
         min-height:440px;
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Drizzle/1.jpg");
+        background-image: url("../Drizzle/1.jpg");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -330,7 +330,7 @@ footer button:hover {transform: scale(1.04);}
     
     .bgr {
         background-color: rgb(255, 255, 255);
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:contain;
     }
     /*---navigation---*/
@@ -438,7 +438,7 @@ footer button:hover {transform: scale(1.04);}
     #symbol:hover {transform: scale(1.1);}
     #text:hover {transform: scale(1);}
     .bgr {
-        background-image: url("/Users/christianbrown/Desktop/2024 website/Files/Ladder flip.png");
+        background-image: url("../Files/Ladder flip.png");
         background-size:cover;
     }
     .nav-item #logo {
