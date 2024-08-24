@@ -5,6 +5,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    animation-timing-function: ease-in-out;
 } 
 body {
     position:relative;
